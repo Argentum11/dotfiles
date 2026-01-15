@@ -1,0 +1,1 @@
+alias extext="gnome-screenshot -a -f /tmp/ocr-temp.png && tesseract /tmp/ocr-temp.png - 2>/dev/null | xclip -selection clipboard && notify-send 'OCR' 'Copied to clipboard'" 
