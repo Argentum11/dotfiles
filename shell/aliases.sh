@@ -1,1 +1,1 @@
-alias extext="gnome-screenshot -a -f /tmp/ocr-temp.png && tesseract /tmp/ocr-temp.png - 2>/dev/null | xclip -selection clipboard && notify-send 'OCR' 'Copied to clipboard'" 
+alias extext='gnome-screenshot -a -f /tmp/ocr-temp.png && text=$(tesseract /tmp/ocr-temp.png - 2>/dev/null) && echo "$text" | xclip -selection clipboard && start=$(echo "$text" | head -c 30) && end=$(echo "$text" | tail -c 30) && notify-send "OCR Copied" "$start ... $end"'
