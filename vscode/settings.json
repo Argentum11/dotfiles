@@ -1,4 +1,5 @@
 {
     "workbench.browser.openLocalhostLinks": false,
-    "editor.copyWithSyntaxHighlighting": false
+    "editor.copyWithSyntaxHighlighting": false,
+    "files.autoSave": "afterDelay"
 }

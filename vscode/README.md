@@ -6,6 +6,8 @@
   - `editor.copyWithSyntaxHighlighting`
 - Prevent using VS Code's own browser pane instead of your system browser
   - `workbench.browser.openLocalhostLinks`
+- Autosave instead of manually saving the file
+  - `files.autoSave`
 
 ## Apply
 
