@@ -1,5 +1,7 @@
 {
     "workbench.browser.openLocalhostLinks": false,
     "editor.copyWithSyntaxHighlighting": false,
-    "files.autoSave": "afterDelay"
+    "files.autoSave": "afterDelay",
+    "workbench.activityBar.location": "default",
+    "workbench.sideBar.location": "left"
 }

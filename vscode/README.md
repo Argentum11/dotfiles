@@ -8,6 +8,13 @@
   - `workbench.browser.openLocalhostLinks`
 - Autosave instead of manually saving the file
   - `files.autoSave`
+- Place Activity Bar and Side Bar on the left
+  - Activity Bar
+    - the narrow strip of icons only (Files, Source Control, Search, Extensions)
+    - `workbench.activityBar.location`
+  - Side Bar
+    - the wider panel that opens when you click one of those icons, showing the file tree,...
+    - `workbench.sideBar.location`
 
 ## Apply
 
